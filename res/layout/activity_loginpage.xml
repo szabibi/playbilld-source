@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="367dp"
+        android:layout_height="551dp"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="143dp"
+        android:layout_height="136dp"
+        android:layout_alignTop="@+id/view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="134dp"
+        android:src="@drawable/playbill" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="36dp"
+        android:drawableLeft="@drawable/ic_at"
+        android:background="@drawable/unfilled_bordered_button"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_key"
+        android:background="@drawable/unfilled_bordered_button"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/gold"
+        android:text="@string/login"
+        android:onClick="submitLogin" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoginGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/unfilled_bordered_button"
+        android:backgroundTintMode="add"
+        android:drawableLeft="@drawable/ic_google"
+        android:drawablePadding="8dp"
+        android:text="@string/login_google"
+        android:textAllCaps="false"
+        android:textColor="@color/gray" />
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewNoAccount"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_up_now"
+        android:onClick="goToSignup"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewNoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLoginGoogle"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/no_account" />
+
+
+</RelativeLayout>

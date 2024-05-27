@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewLogActivity">
+
+    <View
+        android:id="@+id/showTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:background="@color/accent"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textViewLocation"
+        android:layout_alignStart="@+id/imageViewPoster"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:theme="@style/RatingBar"
+        />
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewTitle"
+        android:layout_alignStart="@+id/textViewTitle"
+        android:layout_marginBottom="8dp"
+        android:text="@string/log_i_saw"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/showTitleView"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/imageViewPoster"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLiked"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/ratingBar"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="-4dp"
+        android:layout_toEndOf="@+id/ratingBar"
+        android:background="?android:attr/listChoiceIndicatorMultiple"
+        android:backgroundTint="@color/support"
+        android:button="@null" />
+
+    <TextView
+        android:id="@+id/textViewLiked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxLiked"
+        android:layout_alignStart="@+id/checkBoxLiked"
+        android:layout_alignEnd="@+id/checkBoxLiked"
+        android:layout_marginTop="-8dp"
+        android:gravity="center"
+        android:text="@string/log_liked" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLineReview"
+        android:layout_width="wrap_content"
+        android:layout_height="209dp"
+        android:layout_below="@+id/textViewReview"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textViewReview"
+        style="@style/SectionHeader"
+        android:layout_below="@+id/ratingBar"
+        android:layout_marginTop="20dp"
+        android:text="@string/log_review" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imageViewPoster"
+        android:layout_alignStart="@+id/imageViewPoster"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:text="@string/log_date" />
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="185dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/textViewDate"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textViewDate"
+        android:background="@color/transparent"
+        android:gravity="left|center_vertical"
+        android:text="2023-03-05"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textViewDate"
+        android:layout_alignStart="@+id/textViewDate"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:text="@string/log_location" />
+
+    <Button
+        android:id="@+id/buttonLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewLocation"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textViewLocation"
+        android:background="@color/transparent"
+        android:gravity="left|center_vertical"
+        android:text="@string/log_select_location"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonCreateLog"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/gold"
+        android:text="@string/log_add_entry" />
+
+    <Button
+        android:id="@+id/buttonCancelLog"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/gold"
+        android:onClick="cancelLog"
+        android:text="@string/log_cancel" />
+
+    <ImageView
+        android:id="@+id/imageViewPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>

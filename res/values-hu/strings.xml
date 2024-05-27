@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Playbilld</string>
+    <string name="default_web_client_id">984993641636-94jkg0cu0qc6kd6vr73d3r6p0694dev6.apps.googleusercontent.com</string>
+    <string name="sign_up_now"><u>Regisztrálj!</u></string>
+    <string name="login">Bejelentkezés</string>
+    <string name="login_google">Google-s bejelentkezés</string>
+    <string name="signup_google">Regisztráció Google fiókkal</string>
+    <string name="no_account">Nincs még fiókod?</string>
+    <string name="have_account">Már van fiókod?</string>
+    <string name="have_account_login"><u>Jelentkezz be!</u></string>
+    <string name="email">E-mail cím</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="password_again">Jelszó ismét</string>
+    <string name="sign_up">Regisztráció</string>
+    <string name="sign_up_welcome">Szia!</string>
+    <string name="complete">Befejezés</string>
+    <string name="cancel">Mégse</string>
+    <string name="provide_username">Kérlek adj meg egy felhasználónevet a fiókod véglegesítéséhez.</string>
+
+    <string name="login_authentication_failed">Helytelen felhasználó vagy jelszó</string>
+    <string name="signup_passwords_dont_match">A megadott jelszavak nem egyeznek</string>
+    <string name="signup_fill_all_fields">Kérlek töltsd ki az összes mezőt!</string>
+    <string name="username_taken">Ez a felhasználónév foglalt</string>
+    <string name="signup_eight_or_longer">A jelszó legalább nyolc karakter hosszú kell legyen</string>
+    <string name="signup_email_exists">Ehhez az e-mail címhez tartozik már fiók</string>
+    <string name="signup_success">Sikeres regisztráció!</string>
+    <string name="signup_fail">A regisztráció sikertelen. Bocsi!</string>
+
+    <string name="maps_api_key">AIzaSyAfFCHEXiiDvfj4AULdc5IZL_PV6YzqD6E</string>
+
+    <string name="log_i_saw">Ezt néztem meg…</string>
+    <string name="log_saw">megnézte…</string>
+    <string name="log_liked">Tetszett</string>
+    <string name="log_review">Vélemény</string>
+    <string name="log_date">Dátum</string>
+    <string name="log_location">Helyszín</string>
+    <string name="log_select_location">Helyszín választása…</string>
+    <string name="log_add_entry">Kész</string>
+    <string name="log_edit_entry">Szerkeszt</string>
+    <string name="log_delete_entry">Töröl</string>
+    <string name="log_cancel">Mégse</string>
+    <string name="log_on">Dátum</string>
+    <string name="log_at">Helyszín</string>
+    <string name="log_location_not_specified">Nincs megadva</string>
+    <string name="log_entry_added">Naplóbejegyzés létrehozva!</string>
+    <string name="log_entry_updated">Naplóbejegyzés frissítve</string>
+    <string name="log_entry_deleted">Naplóbejegyzés törölve</string>
+    <string name="log_confirm_delete">Naplóbejegyzés törlése</string>
+    <string name="log_delete_message">Biztosan törlöd ezt a naplóbejegyzést?</string>
+    <string name="map_no_selection">Nincs kijelölés</string>
+    <string name="map_select">Kiválaszt</string>
+
+    <string name="diary_title">Napló</string>
+
+    <string name="home_page_sign_out">Kijelentkezés</string>
+    <string name="home_header">Főoldal</string>
+    <string name="home_page_search">Keresés</string>
+    <string name="home_page_following_activity">Barátaid tevékenysége</string>
+    <string name="home_page_follow_someone">Kövess be valakit!</string>
+
+    <string name="show_page_music_by">Zene</string>
+
+    <string name="search">Előadások</string>
+
+    <string name="user_page_follow">Követés</string>
+    <string name="user_page_following">Követed</string>
+    <string name="user_page_latest">Legutóbbi naplóbejegyzések</string>
+    <string name="user_page_theyre_following">Követések</string>
+    <string name="user_page_following_none">Nincs</string>
+
+    <string name="watched">megnézte:</string>
+
+    <string-array name="months">
+        <item>Január</item>
+        <item>Február</item>
+        <item>Március</item>
+        <item>Április</item>
+        <item>Május</item>
+        <item>Június</item>
+        <item>Július</item>
+        <item>Augusztus</item>
+        <item>Szeptember</item>
+        <item>Október</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:id="@+id/main"
+    tools:context=".HomePageFragment">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        style="@style/PageHeader"
+        android:text="@string/home_header" />
+
+    <TextView
+        android:id="@+id/textViewFollowingActivity"
+        style="@style/SectionHeader"
+        android:layout_below="@id/textViewHeader"
+        android:text="@string/home_page_following_activity"/>
+
+    <TextView
+        android:id="@+id/textViewFollowingActivityMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewFollowingActivity"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/home_page_follow_someone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_below="@id/textViewFollowingActivity">
+        <LinearLayout
+            android:id="@+id/layoutFollowingActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

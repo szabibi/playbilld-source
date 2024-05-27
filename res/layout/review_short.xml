@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/border">
+    <TextView
+        android:id="@+id/textViewReviewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Username"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewReviewReview"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBarReviewRating"
+        android:layout_alignStart="@+id/ratingBarReviewRating"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/imageViewPoster"
+        android:text="yappa yappa yappa" />
+
+    <RatingBar
+        android:id="@+id/ratingBarReviewRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewReviewUsername"
+        android:layout_alignStart="@+id/textViewReviewUsername"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/white"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/transparent"
+        android:progressTint="@color/gold"
+        android:rating="4"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:stepSize="0.5" />
+
+    <ImageView
+        android:id="@+id/imageViewPoster"
+        android:layout_width="48dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

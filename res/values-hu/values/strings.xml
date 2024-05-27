@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Playbilld</string>
+    <string name="default_web_client_id">984993641636-94jkg0cu0qc6kd6vr73d3r6p0694dev6.apps.googleusercontent.com</string>
+    <string name="sign_up_now"><u>Sign up now</u></string>
+    <string name="login">Login</string>
+    <string name="login_google">Login with Google</string>
+    <string name="signup_google">Sign up with Google</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="have_account_login"><u>Login</u></string>
+    <string name="email">E-mail address</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_again">Repeat password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_welcome">Welcome!</string>
+    <string name="complete">Complete</string>
+    <string name="cancel">Cancel</string>
+    <string name="provide_username">Please provide a username to complete your profile.</string>
+
+    <string name="login_authentication_failed">Incorrect email or password</string>
+    <string name="signup_passwords_dont_match">These passwords don\'t match</string>
+    <string name="signup_fill_all_fields">Please fill out all the fields</string>
+    <string name="username_taken">This username is already taken</string>
+    <string name="signup_eight_or_longer">The password must be eight characters or longer</string>
+    <string name="signup_email_exists">This email is already associated with an account</string>
+    <string name="signup_success">Account created!</string>
+    <string name="signup_fail">Failed to create account. Sorry!</string>
+
+    <string name="maps_api_key">AIzaSyAfFCHEXiiDvfj4AULdc5IZL_PV6YzqD6E</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="pick_place">Choose a place</string>
+
+    <string name="log_i_saw">I saw…</string>
+    <string name="log_saw">saw…</string>
+    <string name="log_liked">Liked</string>
+    <string name="log_review">Review</string>
+    <string name="log_date">Date</string>
+    <string name="log_location">Location</string>
+    <string name="log_select_location">Select location…</string>
+    <string name="log_add_entry">Add entry</string>
+    <string name="log_cancel">Cancel</string>
+    <string name="log_on">On</string>
+    <string name="log_at">At</string>
+    <string name="log_location_not_specified">Not specified</string>
+    <string name="log_entry_added">Diary entry added</string>
+
+    <string name="diary_title">Diary</string>
+
+    <string name="home_page_sign_out">Sign out</string>
+    <string name="home_page_search">Search</string>
+    <string name="home_page_following_activity">Following activity</string>
+    <string name="home_page_follow_someone">Go follow someone!</string>
+
+    <string name="show_page_music_by">Music</string>
+
+    <string name="user_page_follow">Follow</string>
+    <string name="user_page_following">Following</string>
+    <string name="user_page_latest">Latest diary entries</string>
+    <string name="user_page_theyre_following">Following</string>
+    <string name="user_page_following_none">None</string>
+
+    <string name="watched">watched</string>
+
+</resources>
